@@ -5,7 +5,7 @@
 
 ---
 
-## 🏗️ System Architecture (시스템 구조)
+## System Architecture (시스템 구조)
 전체 서비스는 3개의 핵심 계층으로 구성되어 있으며, 각 리포지토리가 독립적이면서도 긴밀하게 통신합니다.
 
 ```mermaid
@@ -34,20 +34,17 @@ graph TD
 
 ---
 
-## 📂 Repositories & Roles (리포지토리 역할)
+## Repositories & Roles (리포지토리 역할)
 
-### 1. [Frontend-APP](https://github.com/Mutsa-Rocketdan/Frontend-APP) 📱
-**사용자 경험(UX)의 시작점**
+### 1. [Frontend-APP](https://github.com/Mutsa-Rocketdan/Frontend-APP) 
 - **역할**: 강의 업로드 인터페이스, 실시간 AI 작업 대시보드, 인터랙티브 퀴즈 풀기 및 결과 리포팅.
 - **기술**: React 18, Vite, TypeScript, Tailwind CSS.
 
-### 2. [Backend-API](https://github.com/Mutsa-Rocketdan/Backend-API) ⚡
-**서비스 안정성과 오퍼레이션의 중추**
+### 2. [Backend-API](https://github.com/Mutsa-Rocketdan/Backend-API) 
 - **역할**: JWT 기반 인증(OAuth), 데이터 영속성 관리, AI 파이프라인 연동 및 작업 상태 트래킹.
 - **기술**: FastAPI, PostgreSQL, SQLAlchemy, Docker, Cloudflare Tunnel.
 
-### 3. [AI-Pipeline](https://github.com/Mutsa-Rocketdan/AI-Pipeline) 🧠
-**지능형 지식 추출 엔진**
+### 3. [AI-Pipeline](https://github.com/Mutsa-Rocketdan/AI-Pipeline) 
 - **역할**: STT 텍스트 임베딩, 강의 지식 베이스(VectorDB) 구축, GPT-4o 기반의 맞춤형 퀴즈 및 가이드 자동 생성 메커니즘.
 - **기술**: OpenAI GPT-4o, FAISS, Sentence-Transformers, Streamlit.
 
@@ -75,5 +72,5 @@ graph TD
 
 ---
 
-## 👥 Team Mutsa-Rocketdan
+## Team Mutsa-Rocketdan
 우리는 기술을 통해 학습의 장벽을 낮추고, 쏟아지는 강의 데이터 속에서 핵심 지식을 빠르게 습득할 수 있는 경로를 제시합니다.
