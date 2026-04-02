@@ -3,7 +3,8 @@
 
 방대한 강의 자료(STT 스크립트)와 커리큘럼 데이터를 기반으로, 학습자에게 최적화된 **맞춤형 퀴즈**와 **지능형 학습 가이드**를 자동으로 생성하는 엔드투엔드 솔루션을 구축합니다.
 
-![서비스 시연 영상](assets/demo_video.mp4)
+![서비스 시연 영상](https://github.com/Mutsa-Rocketdan/.github/blob/main/profile/assets/demo_video.mp4?raw=true)
+
 
 ---
 
